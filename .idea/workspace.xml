@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b726432-59e8-49ea-95bf-1200ceb494b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_019/DisjointSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_019/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_019/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_019/TarJanQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_019/Tarjan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_020MaxDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_024NodeNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_21ToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_22GetPosArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_23NumTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_001Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_002MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sunft/test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,32 +18,33 @@
     <session id="748010517">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7232" />
+          <entry key="java" value="9838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7232" />
+          <entry key="JAVA" value="9838" />
         </counts>
       </usages-collector>
     </session>
@@ -57,22 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_024NodeNum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_002MinPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_23NumTrees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -110,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_22GetPosArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_23NumTrees.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_024NodeNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sunft/test/Test01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_001Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -119,9 +104,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="651" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="682" />
+    <option name="y" value="16" />
     <option name="width" value="1127" />
     <option name="height" value="701" />
   </component>
@@ -131,7 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +157,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sunft" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter01_stack_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter04_recurse_dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeInterviewGuide" type="b2602c69:ProjectViewProjectNode" />
@@ -181,20 +166,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sunft" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter03_binarytree" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInterviewGuide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInterviewGuide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunft" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570027035742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570196396112" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -210,6 +205,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sunft.test.Test01" />
+      <module name="CodeInterviewGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sunft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test01" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -223,33 +238,36 @@
       <workItem from="1565440353083" duration="2217000" />
       <workItem from="1565528951487" duration="603000" />
       <workItem from="1569155643576" duration="5943000" />
-      <workItem from="1570022287887" duration="4370000" />
+      <workItem from="1570022287887" duration="4955000" />
+      <workItem from="1570104799189" duration="1996000" />
+      <workItem from="1570185508052" duration="4795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13133000" />
+    <option name="totallyTimeSpent" value="20509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="651" y="21" width="1127" height="701" extended-state="0" />
+    <frame x="682" y="16" width="1127" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30927834" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2239925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329806" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,24 +281,25 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30927834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39858907" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329806" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,20 +408,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_23NumTrees.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_024NodeNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_024NodeNum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter03_binarytree/_23NumTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        <state relative-caret-position="1628">
+          <caret line="79" column="5" selection-start-line="68" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/test/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_001Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="191" column="41" lean-forward="true" selection-start-line="191" selection-start-column="41" selection-end-line="191" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sunft/chapter04_recurse_dp/_002MinPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
