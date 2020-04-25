@@ -6,7 +6,7 @@ package com.sunft.chapter09_other;
  * 在二维坐标系中， 所有的值都是double类型， 那么一个三角形可以由3个点来代表， 给定3个点代表的三角形， 再给定一个点(x， y)，
  * 判断(x， y)是否在三角形中。
  */
-public class _5IsInside {
+public class _05IsInside {
 
     public double getSideLength(double x1, double y1, double x2, double y2) {
         double a = Math.abs(x1 - x2);
