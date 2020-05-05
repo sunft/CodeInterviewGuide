@@ -94,7 +94,7 @@ public class _21NumExpress {
 
     public static class NumToChinese {
         public String num1To9(int num) {
-            if (num < 1 || num > 0) {
+            if (num < 1 || num > 9) {
                 return "";
             }
             String[] names = {"一", "二", "三", "四", "五", "六", "七", "八", "九"};
