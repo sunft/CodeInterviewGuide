@@ -51,12 +51,12 @@ public class _34MinDistances {
         int[][] w = new int[arr.length + 1][arr.length + 1];
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                w[i][j] = w[i][j - 1] + arr[j] - arr[(i+j)/2];
+                w[i][j] = w[i][j - 1] + arr[j] - arr[(i + j) / 2];
             }
         }
         int[][] dp = new int[num][arr.length];
         int[][] s = new int[num][arr.length];
-        for (int j = 0; j != arr.length; j ++) {
+        for (int j = 0; j != arr.length; j++) {
             dp[0][j] = w[0][j];
             s[0][j] = 0;
         }
@@ -64,9 +64,9 @@ public class _34MinDistances {
         int maxK = 0;
         int cur = 0;
         for (int i = 1; i < num; i++) {
-            for (int j = arr.length - 1; j > i; j --) {
+            for (int j = arr.length - 1; j > i; j--) {
                 minK = s[i - 1][j];
-                maxK = j == arr.length - 1 ? arr.length - 1 : s[i][j+1];
+                maxK = j == arr.length - 1 ? arr.length - 1 : s[i][j + 1];
                 dp[i][j] = Integer.MAX_VALUE;
                 for (int k = minK; k <= maxK; k++) {
                     cur = dp[i - 1][k] + w[k + 1][j];
